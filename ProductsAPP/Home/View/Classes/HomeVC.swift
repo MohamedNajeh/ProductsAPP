@@ -76,7 +76,11 @@ class HomeVC: UIViewController {
             guard let products = produsts else { return }
             self?.products.append(contentsOf: products)
             DispatchQueue.main.async {
-                self?.productsCollectionView.reloadData()
+                UIView.transition(with: self?.productsCollectionView ?? UICollectionView(),
+                                  duration: 1.0,
+                                  options: .transitionCrossDissolve,
+                                  animations: {self?.productsCollectionView.reloadData()},
+                                  completion: nil)
             }
         }
         
