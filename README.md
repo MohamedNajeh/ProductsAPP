@@ -50,8 +50,7 @@ The things you'll need in order to use the app and how to install them
 ## Built with
 
 * [Swift 5](https://developer.apple.com/swift/)
-* URLSession
-* No third party libraries
+* XCode
 
 ## Authors
 
