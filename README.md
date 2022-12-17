@@ -1,6 +1,6 @@
 # ProductsAPP
 
-This a simple deom using MVVM architicture pattern and Generic Network layer
+This is a simple demo using MVVM architicture pattern and Generic Network layer
 
 ## Getting Started
 
@@ -20,6 +20,9 @@ The things you'll need in order to use the app and how to install them
 - Download project file or contribute to add features on it 
 - setup Xcode 
 - open project
+
+> __Warning__
+> Network status not accurate with simulatoer -- make sure to test with a real device
 
 ## Features
 
