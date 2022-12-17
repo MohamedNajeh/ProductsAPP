@@ -18,7 +18,6 @@
 		52CD37E6294CA27A0003A395 /* ProductsAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD37E5294CA27A0003A395 /* ProductsAPPUITestsLaunchTests.swift */; };
 		52CD37FC294CA2C60003A395 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD37F6294CA2C60003A395 /* Constants.swift */; };
 		52CD37FD294CA2C60003A395 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD37F7294CA2C60003A395 /* TargetType.swift */; };
-		52CD37FE294CA2C60003A395 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD37F8294CA2C60003A395 /* BaseResponse.swift */; };
 		52CD37FF294CA2C60003A395 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD37F9294CA2C60003A395 /* BaseAPI.swift */; };
 		52CD3804294CA2CE0003A395 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD3803294CA2CE0003A395 /* Observable.swift */; };
 		52CD380B294CAB6F0003A395 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD3809294CAB6F0003A395 /* ProductCell.swift */; };
@@ -69,7 +68,6 @@
 		52CD37E5294CA27A0003A395 /* ProductsAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		52CD37F6294CA2C60003A395 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		52CD37F7294CA2C60003A395 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
-		52CD37F8294CA2C60003A395 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		52CD37F9294CA2C60003A395 /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		52CD3803294CA2CE0003A395 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		52CD3809294CAB6F0003A395 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
@@ -152,14 +150,14 @@
 			isa = PBXGroup;
 			children = (
 				52CD37F2294CA2950003A395 /* AppDelegate */,
-				52CD37F4294CA2C60003A395 /* Networking */,
-				52CD3829294D21170003A395 /* InternetChecker */,
 				52CD381B294CF07E0003A395 /* Extension */,
+				52CD3829294D21170003A395 /* InternetChecker */,
 				52CD3802294CA2CE0003A395 /* MVVMObservable */,
-				52CD37F3294CA2A70003A395 /* Home */,
-				52CD381E294CFCF80003A395 /* ProductDetails */,
+				52CD37F4294CA2C60003A395 /* Networking */,
 				521230DE294DF13D00E0C927 /* images */,
 				521230DF294DF14D00E0C927 /* launch screen */,
+				52CD37F3294CA2A70003A395 /* Home */,
+				52CD381E294CFCF80003A395 /* ProductDetails */,
 				52CD37D0294CA27A0003A395 /* Info.plist */,
 			);
 			path = ProductsAPP;
@@ -215,7 +213,6 @@
 				52CD37F6294CA2C60003A395 /* Constants.swift */,
 				52CD37F7294CA2C60003A395 /* TargetType.swift */,
 				52CD37F9294CA2C60003A395 /* BaseAPI.swift */,
-				52CD37F8294CA2C60003A395 /* BaseResponse.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -454,7 +451,6 @@
 				52CD37FD294CA2C60003A395 /* TargetType.swift in Sources */,
 				52CD37C7294CA2780003A395 /* HomeVC.swift in Sources */,
 				52CD37C3294CA2780003A395 /* AppDelegate.swift in Sources */,
-				52CD37FE294CA2C60003A395 /* BaseResponse.swift in Sources */,
 				52CD3817294CEADC0003A395 /* ProductModel.swift in Sources */,
 				52CD37C5294CA2780003A395 /* SceneDelegate.swift in Sources */,
 				52CD3825294CFE7F0003A395 /* StoryBoardRouter.swift in Sources */,

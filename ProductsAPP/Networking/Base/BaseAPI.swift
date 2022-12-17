@@ -16,13 +16,6 @@ class BaseAPI<T: TargetType> {
             return
         }
         
-        var urlRequest = URLRequest(url: url)
-        let isConnected = UserDefaults.standard.value(forKey: "isConnected") as? Bool ?? false
-        urlRequest.cachePolicy = .returnCacheDataDontLoad
-        if isConnected {
-            urlRequest.cachePolicy = .reloadIgnoringLocalCacheData
-        }
-        
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if let _ = error {
                 completion(.failure(.noInternet))
