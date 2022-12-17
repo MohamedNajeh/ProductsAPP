@@ -11,8 +11,8 @@ These instructions will get you a copy of the project up and running on your loc
 The things you'll need in order to use the app and how to install them
 
 ```
-- [x] Xcode 11 or later
-- [x] swift 5
+-  Xcode 11 or later
+-  swift 5
 ```
 
 ### How to use
