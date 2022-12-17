@@ -22,7 +22,7 @@ The things you'll need in order to use the app and how to install them
 - open project
 
 > __Warning__
-> Network status not accurate with simulatoer -- make sure to test with a real device
+>  Network status not accurate with simulatoer -- make sure to test with a real device
 
 ## Features
 
