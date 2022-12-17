@@ -21,6 +21,22 @@ The things you'll need in order to use the app and how to install them
 - setup Xcode 
 - open project
 
+## Features
+
+- [x] Generic Network layer using URLSession
+- [x] Cashing in data to use when internet connection list
+- [x] No third party libraries
+- [x] Monitor network status and observe when connection retrived
+- [x] MVVM Architicture pattern
+
+## Why MVVM ?
+```
+- Provides better seperation for buesness logic
+- Improved testability
+- Transperent communication between model , view , and viewModel
+- Provide reusability concept the ex (same data used nultiple times in view)
+```
+
 <p float="left">
   <img src="https://user-images.githubusercontent.com/99803050/208263283-b5d90c71-6a99-4504-9fa4-0ab65e19bdd2.png" width="300" height="550">
   <img src="https://user-images.githubusercontent.com/99803050/208263264-9513614a-418c-423d-92cf-eea9fdfb0d75.png" width="300" height="550">
