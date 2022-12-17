@@ -24,9 +24,11 @@ The things you'll need in order to use the app and how to install them
 ## Features
 
 - [x] Generic Network layer using URLSession
-- [x] Cashing in data to use when internet connection list
+- [x] Cashing in data to use when internet connection lost
 - [x] No third party libraries
 - [x] Monitor network status and observe when connection retrived
+- [x] CollectionView custom flowLayout to change cell size depends on image height
+- [x] custom transition with simple animation when push viewController  
 - [x] MVVM Architicture pattern
 
 ## Why MVVM ?
