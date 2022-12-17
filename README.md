@@ -36,7 +36,7 @@ The things you'll need in order to use the app and how to install them
 - Provides better seperation for buesness logic
 - Improved testability
 - Transperent communication between model , view , and viewModel
-- Provide reusability concept the ex (same data used nultiple times in view)
+- Provide reusability concept  ex (same data used nultiple times in view)
 ```
 
 <p float="left">
