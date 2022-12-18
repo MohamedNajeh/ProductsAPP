@@ -9,6 +9,7 @@ import UIKit
 
 class HomeVC: UIViewController {
     
+    @IBOutlet weak var noDataImfView: UIImageView!
     @IBOutlet weak var connectionStatusLbl: UILabel!
     @IBOutlet weak var connectionView: UIView!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!

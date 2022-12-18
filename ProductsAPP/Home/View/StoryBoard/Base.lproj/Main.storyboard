@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rVE-2k-XJ1">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,27 +13,27 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeVC" customModule="ProductsAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="agk-Gk-9Og">
-                                <rect key="frame" x="5" y="96" width="590" height="504"/>
+                                <rect key="frame" x="5" y="143" width="380" height="667"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewLayout key="collectionViewLayout" id="WX5-7V-WNf" customClass="PrudctsListFlowLayout" customModule="ProductsAPP" customModuleProvider="target"/>
                                 <cells/>
                             </collectionView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="GTX-SJ-p00">
-                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <rect key="frame" x="145" y="372" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="eqt-GW-yZ2"/>
                                     <constraint firstAttribute="height" constant="100" id="m8p-tk-b5w"/>
                                 </constraints>
                             </activityIndicatorView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CeF-0G-9Fy">
-                                <rect key="frame" x="0.0" y="525" width="600" height="80"/>
+                                <rect key="frame" x="0.0" y="769" width="390" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Connection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8w-uo-MVf">
-                                        <rect key="frame" x="213.66666666666663" y="28" width="173" height="24"/>
+                                        <rect key="frame" x="108.66666666666669" y="28" width="173" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -45,6 +46,13 @@
                                     <constraint firstAttribute="height" constant="80" id="fHW-3i-u3N"/>
                                 </constraints>
                             </view>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty" translatesAutoresizingMaskIntoConstraints="NO" id="NCl-em-SWl">
+                                <rect key="frame" x="95" y="322" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0lK-B5-JEe"/>
+                                    <constraint firstAttribute="height" constant="200" id="g6G-Jg-sir"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -54,10 +62,12 @@
                             <constraint firstItem="agk-Gk-9Og" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UAd-4i-ahd"/>
                             <constraint firstAttribute="bottom" secondItem="CeF-0G-9Fy" secondAttribute="bottom" constant="-5" id="bTn-R0-UPS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="agk-Gk-9Og" secondAttribute="bottom" id="c4u-gj-Lvp"/>
+                            <constraint firstItem="NCl-em-SWl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dN1-9i-w5D"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CeF-0G-9Fy" secondAttribute="trailing" id="hVw-mC-wZh"/>
                             <constraint firstItem="CeF-0G-9Fy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kIN-lX-M0G"/>
                             <constraint firstItem="GTX-SJ-p00" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nOg-FR-0yf"/>
                             <constraint firstItem="agk-Gk-9Og" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="oZ0-qL-G1p"/>
+                            <constraint firstItem="NCl-em-SWl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zFB-IH-ERz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Products List" id="B2c-jV-Bfi"/>
@@ -65,6 +75,7 @@
                         <outlet property="connectionStatusLbl" destination="V8w-uo-MVf" id="7Hl-7a-Ejp"/>
                         <outlet property="connectionView" destination="CeF-0G-9Fy" id="RQm-YI-fhH"/>
                         <outlet property="loadingIndicator" destination="GTX-SJ-p00" id="efj-J6-Z0z"/>
+                        <outlet property="noDataImfView" destination="NCl-em-SWl" id="DlR-SL-dsi"/>
                         <outlet property="productsCollectionView" destination="agk-Gk-9Og" id="3gA-hG-YIv"/>
                     </connections>
                 </viewController>
@@ -92,6 +103,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="empty" width="952" height="712"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
